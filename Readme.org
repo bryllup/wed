@@ -15,7 +15,7 @@
 * Synopsis
   
 ~Wed~ is a CMS; tailored for weddings. The project is at it's
-infant-state, so don't expect fireworks!
+infant-state, so don't expect fireworks!\\
 
-[[file:https://app.codeship.com/projects/5ad0a080-7b87-0134-3f1e-7ec45e16cd57/status?branch=master]]
-[[file:https://img.shields.io/badge/license-MIT-blue.svg]]
+[[https://img.shields.io/codeship/5ad0a080-7b87-0134-3f1e-7ec45e16cd57/master.svg]]
+[[https://img.shields.io/badge/license-MIT-blue.svg]]
