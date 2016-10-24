@@ -1,0 +1,31 @@
+:Properties:
+#+Title:               Contribution Guidelines
+#+Author:              Henrik Kjerringvåg
+#+Email:               henrik@kjerringvag.no
+#+Startup:             overview
+#+TAGS:                html(h) cheat(c) noexport(n)
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LANGUAGE:            en
+#+PROPERTY:            mkdirp yes
+#+PROPERTY:            noweb yes
+#+PROPERTY:            exports none
+:End:
+
+* Getting started
+
+/Note that this is very much a work in progress/
+
+Always branch first and start a pull-request early. Only pull-requests
+will be merged into master and that's also where all the discussion
+happens. You can read more about this strategy at [[https://guides.github.com/introduction/flow/][Github flow]]. In
+order to keep a clean change-log, it's mandatory to read through and
+grok [[http://chris.beams.io/posts/git-commit/][How to Write a Git Commit Message]].
+
+OK, so:
+
+#+BEGIN_SRC shell
+lein do garden once, figwheel dev
+#+END_SRC
+
+Executing that command will generate the necessary styles and launch a
+server on your [[http://localhost:8080][localhost]].
